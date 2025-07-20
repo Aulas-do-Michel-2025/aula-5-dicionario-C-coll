@@ -67,4 +67,5 @@ if nome_gene in genes:
     print(f"O tamanho do gene {nome_gene} é {tamanho} pb.")
 else:
     # Se não estiver, exibe mensagem de erro
-    print("Gene não encontrado.")
+    print("Gene não encontrado
+
