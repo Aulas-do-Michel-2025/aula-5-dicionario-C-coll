@@ -1,5 +1,3 @@
-AULA 5 – EXERCÍCIO 1 
-
 """
 #### Exercício 1 - Buscando Informações de Genes
 
