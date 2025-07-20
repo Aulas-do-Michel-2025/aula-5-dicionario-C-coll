@@ -1,3 +1,5 @@
+AULA 5 – EXERCÍCIO 1 
+
 """
 #### Exercício 1 - Buscando Informações de Genes
 
@@ -56,3 +58,13 @@ genes = {
 }
 
 # Criar seu código a partir daqui
+
+
+nome_gene = input("Digite o nome do gene: ")
+
+if nome_gene in genes:
+    tamanho = genes[nome_gene]
+    print(f"O tamanho do gene {nome_gene} é {tamanho} pb.")
+else:
+    # Se não estiver, exibe mensagem de erro
+    print("Gene não encontrado.")
