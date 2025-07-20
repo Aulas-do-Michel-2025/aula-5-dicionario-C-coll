@@ -59,14 +59,13 @@ genes = {
 
 # Criar seu código a partir daqui
 
-# Pede que o usuário digite o nome do gene
+
+# Solicita ao usuário o nome do gene
 nome_gene = input("Digite o nome do gene: ")
 
 # Verifica se o gene está no dicionário
 if nome_gene in genes:
-    # Se estiver, mostra o tamanho do gene
     tamanho = genes[nome_gene]
     print(f"O tamanho do gene {nome_gene} é {tamanho} pb.")
 else:
-    # Se não estiver, exibe mensagem de erro
     print("Gene não encontrado.")
